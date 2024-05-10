@@ -1,11 +1,13 @@
 header {
+}
+
+.header {
   background-color: var(--blue);
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 4rem;
 
-  /* am un gap idk what */
   img {
     width: 6.4rem;
     height: 6.4rem;

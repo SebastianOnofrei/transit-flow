@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import Menu from "../menu/Menu";
 import logo from "../../../assets/logo.png";
 import icon1 from "../../../assets/headericon1.png";
 import icon2 from "../../../assets/headericon2.png";
@@ -25,20 +26,23 @@ const Header = () => {
   ];
   return (
     <header>
-      <img src={logo} alt="transit flow company logo" className="logo" />
-      <div className="header__wrapper">
-        {headerItems.map((item) => {
-          return (
-            <div className="header__wrapper__item">
-              <img src={item.icon} alt="" />
-              <div className="header__wrapper__item-info">
-                <p>{item.text1}</p>
-                <p>{item.text2}</p>
+      <div className="header">
+        <img src={logo} alt="transit flow company logo" className="logo" />
+        <div className="header__wrapper">
+          {headerItems.map((item) => {
+            return (
+              <div className="header__wrapper__item">
+                <img src={item.icon} alt="" />
+                <div className="header__wrapper__item-info">
+                  <p>{item.text1}</p>
+                  <p>{item.text2}</p>
+                </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
+      <Menu />
     </header>
   );
 };
