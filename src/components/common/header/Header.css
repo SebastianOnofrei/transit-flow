@@ -1,0 +1,51 @@
+header {
+  background-color: var(--blue);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4rem;
+
+  /* am un gap idk what */
+  img {
+    width: 6.4rem;
+    height: 6.4rem;
+  }
+
+  .logo {
+    width: 21rem;
+    height: 3.6rem;
+    cursor: pointer;
+    transition: 0.3s linear all;
+  }
+
+  .logo:hover {
+    transform: scale(1.1) skew(-10deg);
+  }
+}
+
+.header__wrapper {
+  display: flex;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.header__wrapper__item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: 0.3s all linear;
+}
+
+.header__wrapper__item:hover {
+  transform: scale(1.05);
+}
+
+.header__wrapper__item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  p {
+    color: var(--secondary1);
+    font-size: 14px;
+  }
+}

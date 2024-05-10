@@ -38,35 +38,49 @@ h1 {
   font-family: var(--rubik);
   color: var(--heading-color);
   font-size: 5rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 h2 {
   font-family: var(--rubik);
   color: var(--heading-color);
   font-size: 4rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 h3 {
   font-family: var(--rubik);
   color: var(--heading-color);
   font-size: 3.5rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 h4 {
   font-family: var(--rubik);
   color: var(--heading-color);
   font-size: 3rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 h5 {
   font-family: var(--rubik);
   color: var(--heading-color);
   font-size: 2.5rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 h6 {
   font-family: var(--rubik);
   color: var(--heading-color);
   font-size: 2rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 p {
   font-family: var(--krub);
   color: var(--paragraph-color);
   line-height: 150%;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
