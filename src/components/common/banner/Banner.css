@@ -2,6 +2,61 @@
   height: 100rem;
   background-size: contain;
   background-repeat: no-repeat;
+  color: var(--secondary1);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 45rem;
+  gap: 2rem;
+  padding: 6rem 15%;
+
+  p,
+  h5,
+  h1 {
+    color: inherit;
+  }
+
+  h5 {
+    background: rgba(4, 28, 55, 0.5);
+    padding: 10px 6px;
+  }
+
+  h5 {
+    border-left: 4px solid var(--yellow);
+  }
+
+  p {
+    color: #fff;
+    font-family: var(--krub);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+
+  button {
+    width: fit-content;
+    width: 194px;
+    height: 60px;
+    color: #23212a;
+    font-family: var(--krub);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 135%; /* 21.604px */
+    background: url("../../../assets/btn-background.png");
+    cursor: pointer;
+    border: none;
+
+    transition: all 0.3s linear;
+  }
+
+  button:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 6px yellow;
+  }
 }
 
 /*  aici dau height diferit fata de home banner si totodata pun si overlayu ala smexy */
